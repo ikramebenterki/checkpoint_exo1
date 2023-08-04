@@ -71,9 +71,12 @@ Ubuntu-2 : 10.0.0.1/24
        - la communication n'a pas fonctionné , destination ureachable .
 
 * Fichier 3 :
-       - Private_66:68:02 initialise la communication
-       - la communication n'a pas fonctionné , destination ureachable .
-       - 26. Où vois-tu les différents protocoles encapsulés ?
+
+   - Private_66:68:02 initialise la communication
+
+   - la communication n'a pas fonctionné , destination ureachable .
+
+   - 26. Où vois-tu les différents protocoles encapsulés ?
       dans la colone protocoles de la fenetre du haut .
    
   
