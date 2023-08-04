@@ -50,8 +50,52 @@ Ubuntu-2 : 10.0.0.1/24
    * les deux machines ont des adresses privés donc elles ont besoin d'un routeur pour acceder a interent (sortir ) dans notre cas elles peuvent sortir grace a la présence du pfsense (firewall)
 
 14 \  On veut passer les adresses IP des machines en dynamique pour qu'elles puissent toutes communiquer entre-elles. Doit-on ajouter des éléments au schéma pour que cela soit possible ?
+
  * situation 1 : ajouter un serveur DHCP
  * situation 2 : configurer manuellement chaque adresse IP sur chaque machine.
+
+## 1.3 Analyse de trames :
+
+* Fichier 1 :
+  -16\ Dans cette trame, qui initialise la communication ?
+        * 10.10.4.1 Private_66:68:00
+
+  - 17\ Est-ce que cette communication a réussi ? Si oui, indique entre quels matériel, si non indique pourquoi cela n'a pas fonctionné.
+        * oui la communication a réussi entre 10.10.4.1 et 10.10.4.2
+
+  - 18\ A qui correspond le request et le reply dans toute la trame ?
+     * je n ai pas compris la question
+
+* Fichier 2 :
+       - Private_66:68:02 initialise la communication
+       - la communication n'a pas fonctionné , destination ureachable .
+
+* Fichier 3 :
+       - Private_66:68:02 initialise la communication
+       - la communication n'a pas fonctionné , destination ureachable .
+       - 26. Où vois-tu les différents protocoles encapsulés ?
+      dans la colone protocoles de la fenetre du haut .
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
